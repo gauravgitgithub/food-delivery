@@ -1015,3 +1015,31 @@ legend {
 .carousel-fourth {
   background-image: url('https://cdn.pixabay.com/photo/2016/03/05/19/58/appetite-1238569_960_720.jpg');
 }
+
+.list-collection {
+    margin: 0!important;
+    width: 100%!important;
+    padding: 0!important;
+    background: #fff!important;
+    position: absolute!important;
+    top: 42px!important;
+    z-index: 9;
+    box-shadow: 0 2px 2px rgba(0,0,0,.1)!important;
+}
+
+.suggestions-list {
+  cursor: pointer;
+    color: #000!important;
+    width: 100%!important;
+    display: block!important;
+    text-align: left!important;
+    float: none!important;
+    margin: 1px !important;
+    padding: 7px 12px!important;
+    font-size: 14px!important;
+    border-bottom: 1px solid #f3f3f3!important;
+}
+
+.suggestions-list:hover {
+    background: #f3f3f3!important;
+}
