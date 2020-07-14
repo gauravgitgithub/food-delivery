@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import './style/home.css';
 class Home extends Component {
   constructor() {
     super();
@@ -17,11 +18,14 @@ class Home extends Component {
       this.setState({ isLoggedIn: AppState.isLoggedIn, user: AppState.user });
     }
   }
+
+  handleLocationChange(e){
+    console.log('called');
+  }
 render() {
     return (
       <div>
         <Header userData={this.state.user} userIsLoggedIn={this.state.isLoggedIn}/>
-         /* <span>Whatever normally goes into the home/index page; A Plea To Heal The World for instance</span> */
         <Footer/>
       </div>
       )

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">        <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>FoodDeliver</title>
+        <title>FoodDelivery</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -71,6 +71,7 @@
         <div id="index">
             
         </div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA0xHO1GYGEdLjvbNLXoBqwyygog7jgqk&libraries=places"></script>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

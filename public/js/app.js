@@ -6453,6 +6453,25 @@ exports.push([module.i, "/*!\n * Bootstrap v4.5.0 (https://getbootstrap.com/)\n 
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Footer/style/footer.css":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Footer/style/footer.css ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);", ""]);
+
+// module
+exports.push([module.i, "body {\n font-family:Rubik,sans-serif;\n position:relative;\n font-weight:400;\n font-size:15px\n}\nul {\n padding:0;\n margin:0\n}\nli {\n list-style:none\n}\na:focus,a:hover {\n text-decoration:none;\n transition:.3s ease\n}\na:focus {\n outline:0\n}\nimg {\n max-width:100%\n}\np {\n font-size:16px;\n line-height:30px;\n color:#898b96;\n font-weight:300\n}\nh4 {\n font-family:Rubik,sans-serif;\n margin:0;\n font-weight:400;\n padding:0;\n color:#363940\n}\na {\n color:#5867dd\n}\n.no-padding {\n padding:0!important\n}\n.go_top {\n line-height:40px;\n cursor:pointer;\n width:40px;\n background:#5867dd;\n color:#fff;\n position:fixed;\n box-shadow:0 4px 4px rgba(0,0,0,.1);\n border-radius:50%;\n right:calc((100% - 1140px)/ 2);\n z-index:111;\n bottom:80px;\n text-align:center\n}\n.go_top span {\n display:inline-block\n}\n.footer-big {\n padding:105px 0 65px 0\n}\n.footer-big .footer-widget {\n margin-bottom:40px\n}\n.footer--light {\n background:#e7e8ed\n}\n.footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {\n color:#898b96\n}\n.footer-menu {\n padding-left:48px\n}\n.footer-menu ul li a {\n font-size:15px;\n line-height:32px;\n transition:.3s\n}\n.footer-menu ul li a:hover {\n color:#5867dd\n}\n.footer-menu--1 {\n width:100%\n}\n.footer-widget-title {\n line-height:42px;\n margin-bottom:10px;\n font-size:18px\n}\n.mini-footer {\n background:#192027;\n text-align:center;\n padding:32px 0\n}\n.mini-footer p {\n margin:0;\n line-height:26px;\n font-size:15px;\n color:#999\n}\n.mini-footer p a {\n color:#5867dd\n}\n.mini-footer p a:hover {\n color:#34bfa3\n}\n.widget-about img {\n display:block;\n margin-bottom:30px\n}\n.widget-about p {\n font-weight:400\n}\n.widget-about .contact-details {\n margin:30px 0 0 0\n}\n.widget-about .contact-details li {\n margin-bottom:10px\n}\n.widget-about .contact-details li:last-child {\n margin-bottom:0\n}\n.widget-about .contact-details li span {\n padding-right:12px\n}\n.widget-about .contact-details li a {\n color:#5867dd\n}\n@media (max-width:991px) {\n .footer-menu {\n  padding-left:0\n }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Header/style/header.css":
 /*!*****************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Header/style/header.css ***!
@@ -6465,7 +6484,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".carousel-item {\n  height: 90vh;\n  min-height: 350px;\n  background: no-repeat center center scroll;\n  background-size: cover;\n}\n\n.navbar-inverse {\n    border-width: 0px;\n    box-shadow: 0px 0px;\n    background-color: rgba(0,0,0,0.0);\n    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);\n}\n.logo-img {\n  max-height: 100px;\n  max-width: 100px;\n}\n\n.carousel-first {\n  background-image: url('https://www.shoutlo.com/uploads/articles/header-img-29_States,_29_Different_Varieties_of_Cuisines.jpg');\n}\n\n.carousel-second {\n  background-image: url('https://c4.wallpaperflare.com/wallpaper/11/446/510/pizza-vegetables-food-tasty-wallpaper-preview.jpg');\n}\n\n.carousel-third {\n  background-image: url('https://lh3.googleusercontent.com/proxy/TQXVo4KshNWmRe_PCpVpcjNTrUjCkQVyFZYtDaSurIjZWlkSpkb6EcXE7HuU_ssd-vUPWud8onizp5MSf4Dy5FWO3pCsZSjokUN96bXuhaSSWRw3cjC-Ifwg3io');\n}", ""]);
+exports.push([module.i, "html {\n  line-height: 1.15;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */\n}\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers (opinionated).\n */\nbody {\n  margin: 0;\n}\n\n/**\n * Add the correct display in IE 9-.\n */\narticle,\naside,\nfooter,\nheader,\nnav,\nsection {\n  display: block;\n}\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/* Grouping content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n * 1. Add the correct display in IE.\n */\nfigcaption,\nfigure,\nmain {\n  /* 1 */\n  display: block;\n}\n\n/**\n * Add the correct margin in IE 8.\n */\nfigure {\n  margin: 1em 40px;\n}\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\na {\n  background-color: transparent;\n  /* 1 */\n  -webkit-text-decoration-skip: objects;\n  /* 2 */\n}\n\n/**\n * 1. Remove the bottom border in Chrome 57- and Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n  /* 2 */\n}\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\nb,\nstrong {\n  font-weight: inherit;\n}\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/**\n * Add the correct font style in Android 4.3-.\n */\ndfn {\n  font-style: italic;\n}\n\n/**\n * Add the correct background and color in IE 9-.\n */\nmark {\n  background-color: #ff0;\n  color: #000;\n}\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\naudio,\nvideo {\n  display: inline-block;\n}\n\n/**\n * Add the correct display in iOS 4-7.\n */\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\nimg {\n  border-style: none;\n}\n\n/**\n * Hide the overflow in IE.\n */\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: sans-serif;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n}\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible;\n}\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none;\n}\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */\n}\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em;\n}\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */\n}\n\n/**\n * 1. Add the correct display in IE 9-.\n * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */\n}\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\ntextarea {\n  overflow: auto;\n}\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */\n}\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/**\n * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in IE 9-.\n * 1. Add the correct display in Edge, IE, and Firefox.\n */\ndetails,\nmenu {\n  display: block;\n}\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item;\n}\n\n/* Scripting\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\ncanvas {\n  display: inline-block;\n}\n\n/**\n * Add the correct display in IE.\n */\ntemplate {\n  display: none;\n}\n\n/* Hidden\n   ========================================================================== */\n/**\n * Add the correct display in IE 10-.\n */\n[hidden] {\n  display: none;\n}\n\nhtml {\n  height: 100%;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n  -webkit-margin-start: 0;\n  -webkit-margin-end: 0;\n  -webkit-padding-before: 0;\n  -webkit-padding-start: 0;\n  -webkit-padding-end: 0;\n  -webkit-padding-after: 0;\n  border: 0;\n}\n\nlegend {\n  margin: 0;\n  padding: 0;\n  display: block;\n  -webkit-padding-start: 0;\n  -webkit-padding-end: 0;\n}\n\n/*===============================\n=            Choices            =\n===============================*/\n.choices {\n  position: relative;\n  margin-bottom: 24px;\n  font-size: 16px;\n}\n\n.choices:focus {\n  outline: none;\n}\n\n.choices:last-child {\n  margin-bottom: 0;\n}\n\n.choices.is-disabled .choices__inner, .choices.is-disabled .choices__input {\n  background-color: #EAEAEA;\n  cursor: not-allowed;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n.choices.is-disabled .choices__item {\n  cursor: not-allowed;\n}\n\n.choices[data-type*=\"select-one\"] {\n  cursor: pointer;\n}\n\n.choices[data-type*=\"select-one\"] .choices__inner {\n  padding-bottom: 7.5px;\n}\n\n.choices[data-type*=\"select-one\"] .choices__input {\n  display: block;\n  width: 100%;\n  padding: 10px;\n  border-bottom: 1px solid #DDDDDD;\n  background-color: #FFFFFF;\n  margin: 0;\n}\n\n.choices[data-type*=\"select-one\"] .choices__button {\n  /*background-image: url(\"../../icons/cross-inverse.svg\");*/\n  padding: 0;\n  background-size: 8px;\n  height: 100%;\n  position: absolute;\n  top: 50%;\n  right: 0;\n  margin-top: -10px;\n  margin-right: 25px;\n  height: 20px;\n  width: 20px;\n  border-radius: 10em;\n  opacity: .5;\n}\n\n.choices[data-type*=\"select-one\"] .choices__button:hover, .choices[data-type*=\"select-one\"] .choices__button:focus {\n  opacity: 1;\n}\n\n.choices[data-type*=\"select-one\"] .choices__button:focus {\n  box-shadow: 0px 0px 0px 2px #00BCD4;\n}\n\n.choices[data-type*=\"select-one\"]:after {\n  content: \"\";\n  height: 0;\n  width: 0;\n  border-style: solid;\n  border-color: #333333 transparent transparent transparent;\n  border-width: 5px;\n  position: absolute;\n  right: 11.5px;\n  top: 50%;\n  margin-top: -2.5px;\n  pointer-events: none;\n}\n\n.choices[data-type*=\"select-one\"].is-open:after {\n  border-color: transparent transparent #333333 transparent;\n  margin-top: -7.5px;\n}\n\n.choices[data-type*=\"select-one\"][dir=\"rtl\"]:after {\n  left: 11.5px;\n  right: auto;\n}\n\n.choices[data-type*=\"select-one\"][dir=\"rtl\"] .choices__button {\n  right: auto;\n  left: 0;\n  margin-left: 25px;\n  margin-right: 0;\n}\n\n.choices[data-type*=\"select-multiple\"] .choices__inner, .choices[data-type*=\"text\"] .choices__inner {\n  cursor: text;\n}\n\n.choices[data-type*=\"select-multiple\"] .choices__button, .choices[data-type*=\"text\"] .choices__button {\n  position: relative;\n  display: inline-block;\n  margin-top: 0;\n  margin-right: -4px;\n  margin-bottom: 0;\n  margin-left: 8px;\n  padding-left: 16px;\n  border-left: 1px solid #008fa1;\n  /*background-image: url(\"../../icons/cross.svg\");*/\n  background-size: 8px;\n  width: 8px;\n  line-height: 1;\n  opacity: .75;\n}\n\n.choices[data-type*=\"select-multiple\"] .choices__button:hover, .choices[data-type*=\"select-multiple\"] .choices__button:focus, .choices[data-type*=\"text\"] .choices__button:hover, .choices[data-type*=\"text\"] .choices__button:focus {\n  opacity: 1;\n}\n\n.choices__inner {\n  display: inline-block;\n  vertical-align: top;\n  width: 100%;\n  background-color: #f9f9f9;\n  padding: 7.5px 7.5px 3.75px;\n  border: 1px solid #DDDDDD;\n  border-radius: 2.5px;\n  font-size: 14px;\n  min-height: 44px;\n  overflow: hidden;\n}\n\n.is-focused .choices__inner, .is-open .choices__inner {\n  border-color: #b7b7b7;\n}\n\n.is-open .choices__inner {\n  border-radius: 2.5px 2.5px 0 0;\n}\n\n.is-flipped.is-open .choices__inner {\n  border-radius: 0 0 2.5px 2.5px;\n}\n\n.choices__list {\n  margin: 0;\n  padding-left: 0;\n  list-style: none;\n}\n\n.choices__list--single {\n  display: inline-block;\n  padding: 4px 16px 4px 4px;\n  width: 100%;\n}\n\n[dir=\"rtl\"] .choices__list--single {\n  padding-right: 4px;\n  padding-left: 16px;\n}\n\n.choices__list--single .choices__item {\n  width: 100%;\n}\n\n.choices__list--multiple {\n  display: inline;\n}\n\n.choices__list--multiple .choices__item {\n  display: inline-block;\n  vertical-align: middle;\n  border-radius: 20px;\n  padding: 4px 10px;\n  font-size: 12px;\n  font-weight: 500;\n  margin-right: 3.75px;\n  margin-bottom: 3.75px;\n  background-color: #00BCD4;\n  border: 1px solid #00a5bb;\n  color: #FFFFFF;\n  word-break: break-all;\n}\n\n.choices__list--multiple .choices__item[data-deletable] {\n  padding-right: 5px;\n}\n\n[dir=\"rtl\"] .choices__list--multiple .choices__item {\n  margin-right: 0;\n  margin-left: 3.75px;\n}\n\n.choices__list--multiple .choices__item.is-highlighted {\n  background-color: #00a5bb;\n  border: 1px solid #008fa1;\n}\n\n.is-disabled .choices__list--multiple .choices__item {\n  background-color: #aaaaaa;\n  border: 1px solid #919191;\n}\n\n.choices__list--dropdown {\n  display: none;\n  z-index: 1;\n  position: absolute;\n  width: 100%;\n  background-color: #FFFFFF;\n  border: 1px solid #DDDDDD;\n  top: 100%;\n  margin-top: -1px;\n  border-bottom-left-radius: 2.5px;\n  border-bottom-right-radius: 2.5px;\n  overflow: hidden;\n  word-break: break-all;\n}\n\n.choices__list--dropdown.is-active {\n  display: block;\n}\n\n.is-open .choices__list--dropdown {\n  border-color: #b7b7b7;\n}\n\n.is-flipped .choices__list--dropdown {\n  top: auto;\n  bottom: 100%;\n  margin-top: 0;\n  margin-bottom: -1px;\n  border-radius: .25rem .25rem 0 0;\n}\n\n.choices__list--dropdown .choices__list {\n  position: relative;\n  max-height: 300px;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n  will-change: scroll-position;\n}\n\n.choices__list--dropdown .choices__item {\n  position: relative;\n  padding: 10px;\n  font-size: 14px;\n}\n\n[dir=\"rtl\"] .choices__list--dropdown .choices__item {\n  text-align: right;\n}\n\n@media (min-width: 640px) {\n  .choices__list--dropdown .choices__item--selectable {\n    padding-right: 100px;\n  }\n  .choices__list--dropdown .choices__item--selectable:after {\n    content: attr(data-select-text);\n    font-size: 12px;\n    opacity: 0;\n    position: absolute;\n    right: 10px;\n    top: 50%;\n    transform: translateY(-50%);\n  }\n  [dir=\"rtl\"] .choices__list--dropdown .choices__item--selectable {\n    text-align: right;\n    padding-left: 100px;\n    padding-right: 10px;\n  }\n  [dir=\"rtl\"] .choices__list--dropdown .choices__item--selectable:after {\n    right: auto;\n    left: 10px;\n  }\n}\n\n.choices__list--dropdown .choices__item--selectable.is-highlighted {\n  background-color: #f2f2f2;\n}\n\n.choices__list--dropdown .choices__item--selectable.is-highlighted:after {\n  opacity: .5;\n}\n\n.choices__item {\n  cursor: default;\n}\n\n.choices__item--selectable {\n  cursor: pointer;\n}\n\n.choices__item--disabled {\n  cursor: not-allowed;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  opacity: .5;\n}\n\n.choices__heading {\n  font-weight: 600;\n  font-size: 12px;\n  padding: 10px;\n  border-bottom: 1px solid #f7f7f7;\n  color: gray;\n}\n\n.choices__button {\n  text-indent: -9999px;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n       appearance: none;\n  border: 0;\n  background-color: transparent;\n  background-repeat: no-repeat;\n  background-position: center;\n  cursor: pointer;\n}\n\n.choices__button:focus {\n  outline: none;\n}\n\n.choices__input {\n  display: inline-block;\n  vertical-align: baseline;\n  background-color: #f9f9f9;\n  font-size: 14px;\n  margin-bottom: 5px;\n  border: 0;\n  border-radius: 0;\n  max-width: 100%;\n  padding: 4px 0 4px 2px;\n}\n\n.choices__input:focus {\n  outline: 0;\n}\n\n[dir=\"rtl\"] .choices__input {\n  padding-right: 2px;\n  padding-left: 0;\n}\n\n.choices__placeholder {\n  opacity: .5;\n}\n\n/*=====  End of Choices  ======*/\n* {\n  box-sizing: border-box;\n}\n\n.s006 {\n  min-height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-family: 'Poppins', sans-serif;\n  background-size: cover;\n  background-position: center center;\n  padding: 15px;\n}\n\n.s006 form {\n  width: 100%;\n  max-width: 790px;\n}\n\n.s006 form legend {\n  font-size: 36px;\n  color: #fff;\n  font-weight: 800;\n  text-align: center;\n  margin-bottom: 59px;\n}\n\n.s006 form .inner-form {\n  width: 100%;\n  margin-bottom: 17px;\n}\n\n.s006 form .inner-form .input-field {\n  height: 70px;\n  width: 100%;\n  position: relative;\n}\n\n.s006 form .inner-form .input-field input {\n  height: 100%;\n  width: 100%;\n  background: transparent;\n  border: 0;\n  background: #fff;\n  display: block;\n  width: 100%;\n  padding: 10px 32px 10px 70px;\n  font-size: 18px;\n  color: #666;\n  border-radius: 34px;\n}\n\n.s006 form .inner-form .input-field input.placeholder {\n  color: #ccc;\n  font-size: 18px;\n}\n\n.s006 form .inner-form .input-field input:-moz-placeholder {\n  color: #ccc;\n  font-size: 18px;\n}\n\n.s006 form .inner-form .input-field input::-webkit-input-placeholder {\n  color: #ccc;\n  font-size: 18px;\n}\n\n.s006 form .inner-form .input-field input:hover, .s006 form .inner-form .input-field input:focus {\n  box-shadow: none;\n  outline: 0;\n}\n\n.s006 form .inner-form .input-field .btn-search {\n  width: 70px;\n  display: flex;\n  align-items: center;\n  position: absolute;\n  left: 0;\n  height: 100%;\n  background: transparent;\n  border: 0;\n  padding: 0;\n  cursor: pointer;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.s006 form .inner-form .input-field .btn-search svg {\n  fill: #ccc;\n  width: 30px;\n  height: 30px;\n  transition: all .2s ease-out, color .2s ease-out;\n}\n\n.s006 form .inner-form .input-field .btn-search:hover, .s006 form .inner-form .input-field .btn-search:focus {\n  outline: 0;\n  box-shadow: none;\n}\n\n.s006 form .inner-form .input-field .btn-search:hover svg, .s006 form .inner-form .input-field .btn-search:focus svg {\n  fill: #666;\n}\n\n.s006 form .suggestion-wrap {\n  padding: 0 15px;\n}\n\n.s006 form .suggestion-wrap span {\n  font-size: 14px;\n  font-family: 'Helvetica', sans-serif;\n  display: inline-block;\n  background: rgba(0, 0, 0, 0.6);\n  padding: 0 15px;\n  line-height: 32px;\n  color: #fff;\n  border-radius: 16px;\n  margin-right: 10px;\n  margin-bottom: 10px;\n}\n\n@media screen and (max-width: 767px) {\n  .s006 form .inner-form .input-field {\n    margin-bottom: 20px;\n    height: 50px;\n  }\n  .s006 form .inner-form .input-field input {\n    padding-left: 55px;\n    font-size: 16px;\n  }\n  .s006 form .inner-form .input-field .btn-search svg {\n    width: 26px;\n    height: 26px;\n  }\n}\n\n.carousel-item {\n  height: 100vh;\n  min-height: 350px;\n  background: no-repeat center center scroll;\n  background-size: cover;\n}\n\n.navbar-brand {\n  font-size: 25px !important;\n  font-weight: 300;\n  color: #f8f9fa !important;\n}\n\n.lead {\n  color: #f8f9fa !important;\n  font-weight: 200;\n  font-size: 2rem !important;\n}\n\n.lead:hover {\n  color: #fc8019 !important;\n  font-weight: 50;\n}\n\n.navbar-nav a {\n  color: #f8f9fa !important;\n}\n\n.navbar-nav a:hover {\n  background-color: black;\n  color: #f8f9fa !important;\n}\n\n.navbar-inverse {\n    border-width: 0px;\n    box-shadow: 0px 0px;\n    background-color: rgba(0,0,0,0.0);\n    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);\n}\n\n.logo-img {\n  max-height: 60px;\n  max-width: 60px;\n}\n\n.carousel-first {\n  background-image: url('https://cdn.pixabay.com/photo/2016/06/26/22/45/india-1481494_960_720.jpg');\n}\n\n.carousel-second {\n  background-image: url('https://cdn.pixabay.com/photo/2016/10/25/13/42/indian-1768906_960_720.jpg');\n}\n\n.carousel-third {\n  background-image: url('https://cdn.pixabay.com/photo/2020/05/10/13/53/naan-5154130_960_720.jpg');\n}\n\n.carousel-fourth {\n  background-image: url('https://cdn.pixabay.com/photo/2016/03/05/19/58/appetite-1238569_960_720.jpg');\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Home/style/home.css":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Home/style/home.css ***!
+  \*************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -39508,6 +39546,23 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
+/***/ "./node_modules/react-cool-onclickoutside/dist/index.esm.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-cool-onclickoutside/dist/index.esm.js ***!
+  \******************************************************************/
+/*! exports provided: default, DEFAULT_IGNORE_CLASS */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DEFAULT_IGNORE_CLASS", function() { return DEFAULT_IGNORE_CLASS; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _slicedToArray(e,r){return _arrayWithHoles(e)||_iterableToArrayLimit(e,r)||_unsupportedIterableToArray(e,r)||_nonIterableRest()}function _toConsumableArray(e){return _arrayWithoutHoles(e)||_iterableToArray(e)||_unsupportedIterableToArray(e)||_nonIterableSpread()}function _arrayWithoutHoles(e){if(Array.isArray(e))return _arrayLikeToArray(e)}function _arrayWithHoles(e){if(Array.isArray(e))return e}function _iterableToArray(e){if("undefined"!=typeof Symbol&&Symbol.iterator in Object(e))return Array.from(e)}function _iterableToArrayLimit(e,r){if("undefined"!=typeof Symbol&&Symbol.iterator in Object(e)){var t=[],n=!0,o=!1,a=void 0;try{for(var i,u=e[Symbol.iterator]();!(n=(i=u.next()).done)&&(t.push(i.value),!r||t.length!==r);n=!0);}catch(e){o=!0,a=e}finally{try{n||null==u.return||u.return()}finally{if(o)throw a}}return t}}function _unsupportedIterableToArray(e,r){if(e){if("string"==typeof e)return _arrayLikeToArray(e,r);var t=Object.prototype.toString.call(e).slice(8,-1);return"Object"===t&&e.constructor&&(t=e.constructor.name),"Map"===t||"Set"===t?Array.from(e):"Arguments"===t||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)?_arrayLikeToArray(e,r):void 0}}function _arrayLikeToArray(e,r){(null==r||r>e.length)&&(r=e.length);for(var t=0,n=new Array(r);t<r;t++)n[t]=e[t];return n}function _nonIterableSpread(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function _nonIterableRest(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var canUsePassiveEvents=function(){if("undefined"==typeof window||"function"!=typeof window.addEventListener)return!1;var e=!1,r=Object.defineProperty({},"passive",{get:function(){e=!0}}),t=function(){return null};return window.addEventListener("test",t,r),window.removeEventListener("test",t,r),e},DEFAULT_IGNORE_CLASS="ignore-onclickoutside",hasIgnoreClass=function(e,r){for(var t=e.target;t;){var n;if(null===(n=t)||void 0===n?void 0:n.classList.contains(r))return!0;t=t.parentElement}return!1},clickedOnScrollbar=function(e){return document.documentElement.clientWidth<=e.clientX||document.documentElement.clientHeight<=e.clientY},getEventOptions=function(e){return!(!e.includes("touch")||!canUsePassiveEvents())&&{passive:!0}},useOnclickOutside=function(e){var r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},t=r.refs,n=r.disabled,o=void 0!==n&&n,a=r.eventTypes,i=void 0===a?["mousedown","touchstart"]:a,u=r.excludeScrollbar,c=void 0!==u&&u,l=r.ignoreClass,s=void 0===l?DEFAULT_IGNORE_CLASS:l,f=Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(e),d=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),y=_slicedToArray(d,2),v=y[0],b=y[1];Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])((function(){f.current=e}),[e]);var m=Object(react__WEBPACK_IMPORTED_MODULE_0__["useCallback"])((function(e){b((function(r){return[].concat(_toConsumableArray(r),[{current:e}])}))}),[]);return Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])((function(){if((null==t?void 0:t.length)||v.length){var e=function(e){if(!hasIgnoreClass(e,s)){var r=[];(t||v).forEach((function(e){var t=e.current;t&&r.push(t)})),c&&clickedOnScrollbar(e)||r.length&&r.every((function(r){return!r.contains(e.target)}))&&f.current(e)}},r=function(){i.forEach((function(r){document.removeEventListener(r,e,getEventOptions(r))}))};if(!o)return i.forEach((function(r){document.addEventListener(r,e,getEventOptions(r))})),function(){r()};r()}}),[v,s,c,o,JSON.stringify(i)]),m};/* harmony default export */ __webpack_exports__["default"] = (useOnclickOutside);
+
+
+/***/ }),
+
 /***/ "./node_modules/react-dom/cjs/react-dom.development.js":
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
@@ -70289,6 +70344,26 @@ function warning(condition, message) {
 
 /***/ }),
 
+/***/ "./node_modules/use-places-autocomplete/dist/index.esm.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/use-places-autocomplete/dist/index.esm.js ***!
+  \****************************************************************/
+/*! exports provided: default, getGeocode, getLatLng, getZipCode */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getGeocode", function() { return getGeocode; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getLatLng", function() { return getLatLng; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getZipCode", function() { return getZipCode; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _defineProperty(e,t,r){return t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r,e}function ownKeys(e,t){var r=Object.keys(e);if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(e);t&&(o=o.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),r.push.apply(r,o)}return r}function _objectSpread2(e){for(var t=1;t<arguments.length;t++){var r=null!=arguments[t]?arguments[t]:{};t%2?ownKeys(Object(r),!0).forEach((function(t){_defineProperty(e,t,r[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(r)):ownKeys(Object(r)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(r,t))}))}return e}function _slicedToArray(e,t){return _arrayWithHoles(e)||_iterableToArrayLimit(e,t)||_unsupportedIterableToArray(e,t)||_nonIterableRest()}function _arrayWithHoles(e){if(Array.isArray(e))return e}function _iterableToArrayLimit(e,t){if("undefined"!=typeof Symbol&&Symbol.iterator in Object(e)){var r=[],o=!0,n=!1,a=void 0;try{for(var i,c=e[Symbol.iterator]();!(o=(i=c.next()).done)&&(r.push(i.value),!t||r.length!==t);o=!0);}catch(e){n=!0,a=e}finally{try{o||null==c.return||c.return()}finally{if(n)throw a}}return r}}function _unsupportedIterableToArray(e,t){if(e){if("string"==typeof e)return _arrayLikeToArray(e,t);var r=Object.prototype.toString.call(e).slice(8,-1);return"Object"===r&&e.constructor&&(r=e.constructor.name),"Map"===r||"Set"===r?Array.from(e):"Arguments"===r||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)?_arrayLikeToArray(e,t):void 0}}function _arrayLikeToArray(e,t){(null==t||t>e.length)&&(t=e.length);for(var r=0,o=new Array(t);r<t;r++)o[r]=e[r];return o}function _nonIterableRest(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var commonjsGlobal="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},FUNC_ERROR_TEXT="Expected a function",NAN=NaN,symbolTag="[object Symbol]",reTrim=/^\s+|\s+$/g,reIsBadHex=/^[-+]0x[0-9a-f]+$/i,reIsBinary=/^0b[01]+$/i,reIsOctal=/^0o[0-7]+$/i,freeParseInt=parseInt,freeGlobal="object"==typeof commonjsGlobal&&commonjsGlobal&&commonjsGlobal.Object===Object&&commonjsGlobal,freeSelf="object"==typeof self&&self&&self.Object===Object&&self,root=freeGlobal||freeSelf||Function("return this")(),objectProto=Object.prototype,objectToString=objectProto.toString,nativeMax=Math.max,nativeMin=Math.min,now=function(){return root.Date.now()};function debounce(e,t,r){var o,n,a,i,c,u,l=0,s=!1,f=!1,d=!0;if("function"!=typeof e)throw new TypeError(FUNC_ERROR_TEXT);function b(t){var r=o,a=n;return o=n=void 0,l=t,i=e.apply(a,r)}function p(e){return l=e,c=setTimeout(m,t),s?b(e):i}function y(e){var r=e-u;return void 0===u||r>=t||r<0||f&&e-l>=a}function m(){var e=now();if(y(e))return g(e);c=setTimeout(m,function(e){var r=t-(e-u);return f?nativeMin(r,a-(e-l)):r}(e))}function g(e){return c=void 0,d&&o?b(e):(o=n=void 0,i)}function v(){var e=now(),r=y(e);if(o=arguments,n=this,u=e,r){if(void 0===c)return p(u);if(f)return c=setTimeout(m,t),b(u)}return void 0===c&&(c=setTimeout(m,t)),i}return t=toNumber(t)||0,isObject(r)&&(s=!!r.leading,a=(f="maxWait"in r)?nativeMax(toNumber(r.maxWait)||0,t):a,d="trailing"in r?!!r.trailing:d),v.cancel=function(){void 0!==c&&clearTimeout(c),l=0,o=u=n=c=void 0},v.flush=function(){return void 0===c?i:g(now())},v}function isObject(e){var t=typeof e;return!!e&&("object"==t||"function"==t)}function isObjectLike(e){return!!e&&"object"==typeof e}function isSymbol(e){return"symbol"==typeof e||isObjectLike(e)&&objectToString.call(e)==symbolTag}function toNumber(e){if("number"==typeof e)return e;if(isSymbol(e))return NAN;if(isObject(e)){var t="function"==typeof e.valueOf?e.valueOf():e;e=isObject(t)?t+"":t}if("string"!=typeof e)return 0===e?e:+e;e=e.replace(reTrim,"");var r=reIsBinary.test(e);return r||reIsOctal.test(e)?freeParseInt(e.slice(2),r?2:8):reIsBadHex.test(e)?NAN:+e}var lodash_debounce=debounce,useLatest=function(e){var t=Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(e);return Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])((function(){t.current=e}),[e]),t},loadApiErr="> 💡use-places-autocomplete: Google Maps Places API library must be loaded. See: https://github.com/wellyshen/use-places-autocomplete#load-the-library",usePlacesAutocomplete=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},t=e.requestOptions,r=e.debounce,o=void 0===r?200:r,n=e.googleMaps,a=e.callbackName,i=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(!1),c=_slicedToArray(i,2),u=c[0],l=c[1],s=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),f=_slicedToArray(s,2),d=f[0],b=f[1],p=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({loading:!1,status:"",data:[]}),y=_slicedToArray(p,2),m=y[0],g=y[1],v=Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null),j=useLatest(t),w=useLatest(n),O=Object(react__WEBPACK_IMPORTED_MODULE_0__["useCallback"])((function(){var e,t=window.google,r=w.current,o=(null==r?void 0:r.places)||(null==t||null===(e=t.maps)||void 0===e?void 0:e.places);o?(v.current=new o.AutocompleteService,l(!0)):console.error(loadApiErr)}),[]),h=Object(react__WEBPACK_IMPORTED_MODULE_0__["useCallback"])((function(){g({loading:!1,status:"",data:[]})}),[]),_=Object(react__WEBPACK_IMPORTED_MODULE_0__["useCallback"])(lodash_debounce((function(e){e?(g((function(e){return _objectSpread2(_objectSpread2({},e),{},{loading:!0})})),v.current.getPlacePredictions(_objectSpread2(_objectSpread2({},j.current),{},{input:e}),(function(e,t){g({loading:!1,status:t,data:e||[]})}))):h()}),o),[o,h]),T=Object(react__WEBPACK_IMPORTED_MODULE_0__["useCallback"])((function(e){var t=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];b(e),t&&_(e)}),[_]);return Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])((function(){var e=window.google;return w.current||(null==e?void 0:e.maps)||!a?O():window[a]=O,function(){window[a]&&delete window[a]}}),[a,O]),{ready:u,value:d,suggestions:m,setValue:T,clearSuggestions:h}},geocodeErr="> 💡use-places-autocomplete: Please provide an address when using getGeocode() with the componentRestrictions.",getGeocode=function(e){var t=new window.google.maps.Geocoder;return new Promise((function(r,o){t.geocode(e,(function(t,n){"OK"!==n&&o(n),!e.address&&e.componentRestrictions&&(console.error(geocodeErr),r(t)),r(t)}))}))},getLatLng=function(e){return new Promise((function(t,r){try{var o=e.geometry.location,n=o.lat,a=o.lng;t({lat:n(),lng:a()})}catch(e){r(e)}}))},getZipCode=function(e,t){return new Promise((function(r,o){try{var n=null;e.address_components.forEach((function(e){var r=e.long_name,o=e.short_name;e.types.includes("postal_code")&&(n=t?o:r)})),r(n)}catch(e){o(e)}}))};/* harmony default export */ __webpack_exports__["default"] = (usePlacesAutocomplete);
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
 /***/ "./node_modules/value-equal/esm/value-equal.js":
 /*!*****************************************************!*\
   !*** ./node_modules/value-equal/esm/value-equal.js ***!
@@ -70579,6 +70654,118 @@ if (token) {
 
 /***/ }),
 
+/***/ "./resources/js/components/Common/Autocomplete.js":
+/*!********************************************************!*\
+  !*** ./resources/js/components/Common/Autocomplete.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var use_places_autocomplete__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! use-places-autocomplete */ "./node_modules/use-places-autocomplete/dist/index.esm.js");
+/* harmony import */ var react_cool_onclickoutside__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-cool-onclickoutside */ "./node_modules/react-cool-onclickoutside/dist/index.esm.js");
+
+
+
+
+var PlacesAutocomplete = function PlacesAutocomplete() {
+  var _usePlacesAutocomplet = Object(use_places_autocomplete__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    requestOptions: {
+      /* Define search scope here */
+    },
+    debounce: 300
+  }),
+      ready = _usePlacesAutocomplet.ready,
+      value = _usePlacesAutocomplet.value,
+      _usePlacesAutocomplet2 = _usePlacesAutocomplet.suggestions,
+      status = _usePlacesAutocomplet2.status,
+      data = _usePlacesAutocomplet2.data,
+      setValue = _usePlacesAutocomplet.setValue,
+      clearSuggestions = _usePlacesAutocomplet.clearSuggestions;
+
+  var ref = Object(react_cool_onclickoutside__WEBPACK_IMPORTED_MODULE_2__["default"])(function () {
+    // When user clicks outside of the component, we can dismiss
+    // the searched suggestions by calling this method
+    clearSuggestions();
+  });
+
+  var handleInput = function handleInput(e) {
+    // Update the keyword of the input element
+    setValue(e.target.value);
+  };
+
+  var handleSelect = function handleSelect(_ref) {
+    var description = _ref.description;
+    return function () {
+      // When user selects a place, we can replace the keyword without request data from API
+      // by setting the second parameter as "false"
+      setValue(description, false);
+      clearSuggestions(); // Get latitude and longitude via utility functions
+
+      Object(use_places_autocomplete__WEBPACK_IMPORTED_MODULE_1__["getGeocode"])({
+        address: description
+      }).then(function (results) {
+        return Object(use_places_autocomplete__WEBPACK_IMPORTED_MODULE_1__["getLatLng"])(results[0]);
+      }).then(function (_ref2) {
+        var lat = _ref2.lat,
+            lng = _ref2.lng;
+        console.log("📍 Coordinates: ", {
+          lat: lat,
+          lng: lng
+        });
+      })["catch"](function (error) {
+        console.log("😱 Error: ", error);
+      });
+    };
+  };
+
+  var renderSuggestions = function renderSuggestions() {
+    return data.map(function (suggestion) {
+      var id = suggestion.id,
+          _suggestion$structure = suggestion.structured_formatting,
+          main_text = _suggestion$structure.main_text,
+          secondary_text = _suggestion$structure.secondary_text;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        key: id,
+        onClick: handleSelect(suggestion)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, main_text), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("small", null, secondary_text));
+    });
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    ref: ref
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "s006"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("fieldset", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("legend", null, "What are you looking for?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "inner-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "input-field"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    "class": "btn-search",
+    type: "button"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "24",
+    height: "24",
+    viewBox: "0 0 24 24"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    id: "search",
+    value: value,
+    onChange: handleInput,
+    disabled: !ready,
+    placeholder: "Enter Delivery Location"
+  }), status === "OK" && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, renderSuggestions())))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PlacesAutocomplete);
+
+/***/ }),
+
 /***/ "./resources/js/components/Footer/Footer.js":
 /*!**************************************************!*\
   !*** ./resources/js/components/Footer/Footer.js ***!
@@ -70590,13 +70777,146 @@ if (token) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/footer.css */ "./resources/js/components/Footer/style/footer.css");
+/* harmony import */ var _style_footer_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_footer_css__WEBPACK_IMPORTED_MODULE_1__);
+
 
 
 var Footer = function Footer() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, "Whatever normally goes into the footer");
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    "class": "footer-area footer--light"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "footer-big"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "col-md-3 col-sm-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "footer-widget"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "widget-about"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "assets/img/linkedin_banner_image_2.png",
+    alt: "",
+    "class": "img-fluid"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Buy best food, cuisines from your nearby restaurants."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    "class": "contact-details"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "class": "icon-earphones"
+  }), " Call Us:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "tel:344-755-111"
+  }, "344-755-111")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "class": "icon-envelope-open"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:support@fooddelivery.com"
+  }, "support@fooddelivery.com")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "col-md-3 col-sm-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "footer-widget"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "footer-menu footer-menu--1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    "class": "footer-widget-title"
+  }, "Popular Category"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Indian")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Chinese")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Italian")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Mexican")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "col-md-3 col-sm-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "footer-widget"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "footer-menu"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    "class": "footer-widget-title"
+  }, "Our Company"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "About Us")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "How It Works")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Affiliates")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Testimonials")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Contact Us")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Plan & Pricing")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Blog")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "col-md-3 col-sm-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "footer-widget"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "footer-menu no-padding"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    "class": "footer-widget-title"
+  }, "Help Support"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Support Forum")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Terms & Conditions")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Support Policy")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Refund Policy")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "FAQs")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Buyers Faq")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Sellers Faq"))))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "mini-footer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "col-md-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "copyright-text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xA9 All rights reserved. Created by", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, " FoodDelivery "))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./resources/js/components/Footer/style/footer.css":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/Footer/style/footer.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./footer.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Footer/style/footer.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
@@ -70614,6 +70934,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _style_header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/header.css */ "./resources/js/components/Header/style/header.css");
 /* harmony import */ var _style_header_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_header_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Common_Autocomplete__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Common/Autocomplete */ "./resources/js/components/Common/Autocomplete.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -70635,6 +70956,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -70687,44 +71009,7 @@ var Header = /*#__PURE__*/function (_Component) {
         className: "logo-img",
         src: "assets/img/logo.png",
         alt: "FoodDelivery"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        "class": "navbar-toggler",
-        type: "button",
-        "data-toggle": "collapse",
-        "data-target": "#navbarResponsive",
-        "aria-controls": "navbarResponsive",
-        "aria-expanded": "false",
-        "aria-label": "Toggle navigation"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "navbar-toggler-icon"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "collapse navbar-collapse",
-        id: "navbarResponsive"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        "class": "navbar-nav ml-auto"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        "class": "nav-item active"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        "class": "nav-link",
-        href: "#"
-      }, "Home", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "sr-only"
-      }, "(current)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        "class": "nav-item"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        "class": "nav-link",
-        href: "#"
-      }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        "class": "nav-item"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        "class": "nav-link",
-        href: "#"
-      }, "Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        "class": "nav-item"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        "class": "nav-link",
-        href: "#"
-      }, "Contact")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), " FoodDelivery"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "carouselExampleIndicators",
         "class": "carousel slide",
         "data-ride": "carousel"
@@ -70740,6 +71025,9 @@ var Header = /*#__PURE__*/function (_Component) {
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         "data-target": "#carouselExampleIndicators",
         "data-slide-to": "2"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        "data-target": "#carouselExampleIndicators",
+        "data-slide-to": "3"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         "class": "carousel-inner",
         role: "listbox"
@@ -70749,45 +71037,33 @@ var Header = /*#__PURE__*/function (_Component) {
         "class": "carousel-caption d-none d-md-block"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         "class": "display-4"
-      }, "First Slide"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "Hungry ?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         "class": "lead"
-      }, "This is a description for the first slide."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Order food from your nearby restaurants."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         "class": "carousel-second carousel-item"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         "class": "carousel-caption d-none d-md-block"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         "class": "display-4"
-      }, "Second Slide"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "Unexpected Guests ?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         "class": "lead"
-      }, "This is a description for the second slide."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Order food from your nearby restaurants."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         "class": "carousel-third carousel-item"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         "class": "carousel-caption d-none d-md-block"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         "class": "display-4"
-      }, "Third Slide"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "Going for movie ?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         "class": "lead"
-      }, "This is a description for the third slide.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        "class": "carousel-control-prev",
-        href: "#carouselExampleIndicators",
-        role: "button",
-        "data-slide": "prev"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "carousel-control-prev-icon",
-        "aria-hidden": "true"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "sr-only"
-      }, "Previous")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        "class": "carousel-control-next",
-        href: "#carouselExampleIndicators",
-        role: "button",
-        "data-slide": "next"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "carousel-control-next-icon",
-        "aria-hidden": "true"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "sr-only"
-      }, "Next")))));
+      }, "Order food from your nearby restaurants."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "carousel-fourth carousel-item"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        "class": "carousel-caption d-none d-md-block"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        "class": "display-4"
+      }, "Sweet after Dinner ?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        "class": "lead"
+      }, "Order food from your nearby restaurants."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Common_Autocomplete__WEBPACK_IMPORTED_MODULE_3__["default"], null)))));
     }
   }]);
 
@@ -70841,6 +71117,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Header/Header */ "./resources/js/components/Header/Header.js");
 /* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Footer/Footer */ "./resources/js/components/Footer/Footer.js");
+/* harmony import */ var _style_home_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style/home.css */ "./resources/js/components/Home/style/home.css");
+/* harmony import */ var _style_home_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_style_home_css__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -70862,6 +71140,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -70900,12 +71179,17 @@ var Home = /*#__PURE__*/function (_Component) {
       }
     }
   }, {
+    key: "handleLocationChange",
+    value: function handleLocationChange(e) {
+      console.log('called');
+    }
+  }, {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
         userData: this.state.user,
         userIsLoggedIn: this.state.isLoggedIn
-      }), "/* ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Whatever normally goes into the home/index page; A Plea To Heal The World for instance"), " */", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
     }
   }]);
 
@@ -70913,6 +71197,36 @@ var Home = /*#__PURE__*/function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./resources/js/components/Home/style/home.css":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/Home/style/home.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./home.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Home/style/home.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
