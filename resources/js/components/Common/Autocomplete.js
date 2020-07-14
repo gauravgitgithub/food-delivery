@@ -3,6 +3,8 @@ import usePlacesAutocomplete, {
   getGeocode,
   getLatLng,
 } from "use-places-autocomplete";
+import ReactDOM from 'react-dom';
+import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import useOnclickOutside from "react-cool-onclickoutside";
 
 const PlacesAutocomplete = () => {
@@ -39,7 +41,7 @@ const PlacesAutocomplete = () => {
     getGeocode({ address: description })
       .then((results) => getLatLng(results[0]))
       .then(({ lat, lng }) => {
-        console.log("📍 Coordinates: ", { lat, lng });
+        window.location = "/restaurants/"+lat+"/"+lng;
       })
       .catch((error) => {
         console.log("😱 Error: ", error);
@@ -76,7 +78,7 @@ const PlacesAutocomplete = () => {
               </button>
               <input
                   id="search"
-                  autocomplete="off"
+                  autoComplete="off"
                   value={value}
                   onChange={handleInput}
                   disabled={!ready}

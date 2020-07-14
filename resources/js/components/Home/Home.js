@@ -19,9 +19,6 @@ class Home extends Component {
     }
   }
 
-  handleLocationChange(e){
-    console.log('called');
-  }
 render() {
     return (
       <div>

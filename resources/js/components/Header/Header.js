@@ -69,7 +69,6 @@ class Header extends Component {
       </div>
       <PlacesAutocomplete />
     </div>
-
   </div>
 </header>
         </div>
