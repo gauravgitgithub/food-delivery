@@ -231,4 +231,6 @@ return [
 
     'api_key' => env('API_KEY','123456'),
 
+    'reverse_geocoding' => 'https://api.bigdatacloud.net/data/reverse-geocode-client',
+
 ];
