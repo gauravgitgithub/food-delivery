@@ -16,7 +16,7 @@ class Restaurants extends Component {
       error : {},
     }
   }
-  // check if user is authenticated and storing authentication data as states if true
+  
   componentWillMount() {
     let state = localStorage["appState"];
     if (state) {
@@ -32,6 +32,32 @@ class Restaurants extends Component {
             this.setState({ hasError: true, error: err });
           }
     }
+  }
+
+  componentDidMount(){
+    this.getRestaurants();
+  }
+
+  getRestaurants(){
+      if(!this.state.loading){
+
+        // Set loading state to true to
+        // avoid multiple requests on scroll
+        this.setState({
+          loading : true,
+        });
+
+        const coordinates = {
+          latitude : this.state.lat,
+          longitude : this.state.lng,
+        }
+        // make XHR request
+        axios.get('/api/home/getRestaurants',  {
+          params: coordinates
+        }).then((response) => {
+            console.log(response);
+        });
+      }
   }
 
 render() {

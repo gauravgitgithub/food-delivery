@@ -71273,8 +71273,7 @@ var Restaurants = /*#__PURE__*/function (_Component) {
       error: {}
     };
     return _this;
-  } // check if user is authenticated and storing authentication data as states if true
-
+  }
 
   _createClass(Restaurants, [{
     key: "componentWillMount",
@@ -71304,6 +71303,32 @@ var Restaurants = /*#__PURE__*/function (_Component) {
             error: err
           });
         }
+      }
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.getRestaurants();
+    }
+  }, {
+    key: "getRestaurants",
+    value: function getRestaurants() {
+      if (!this.state.loading) {
+        // Set loading state to true to
+        // avoid multiple requests on scroll
+        this.setState({
+          loading: true
+        });
+        var coordinates = {
+          latitude: this.state.lat,
+          longitude: this.state.lng
+        }; // make XHR request
+
+        axios.get('/api/home/getRestaurants', {
+          params: coordinates
+        }).then(function (response) {
+          console.log(response);
+        });
       }
     }
   }, {

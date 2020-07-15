@@ -71,7 +71,7 @@
         <div id="index">
             
         </div>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA0xHO1GYGEdLjvbNLXoBqwyygog7jgqk&libraries=places"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key={{ config('app.api_key')}}&libraries=places"></script>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
