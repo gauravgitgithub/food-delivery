@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Traits\CurlRequest;
+use App\Traits\Common;
 use App\States;
 use App\Cities;
 use App\Localities;
@@ -13,24 +14,51 @@ use App\Localities;
 class HomeController extends Controller
 {
 
-    use CurlRequest;
+    use CurlRequest,Common;
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
+
+    protected $geocodingService = 'locationiq';
+
     public function index(Request $request)
     {
          $url = null;
-         if(!empty(config('app.reverse_geocoding'))){
-            $url = config('app.reverse_geocoding');
+
+         if($this->geocodingService == "locationiq"){
+            $configUrl = config('app.locationiq_reverse');
+         }else{
+            $configUrl = config('app.reverse_geocoding');
+         }
+
+         if(!empty($configUrl)) {
+            $url = $configUrl;
          }
          $lat = $request->latitude;
          $lng = $request->longitude;
          
-         $locationData = $this->getLocationAddress($url, $lat, $lng);
+         if($this->geocodingService == "locationiq"){
+             $locationData = $this->getAddress($url, $lat, $lng);
+         }else{
+            $locationData = $this->getLocationAddress($url, $lat, $lng);
+         }
+        
          if(!empty($locationData)){
+
+            //Saving new entries for localities
             $this->saveLocalitiesInDB($locationData);
+
+            if($this->geocodingService == "locationiq"){
+                $city = $this->getCityFromLocationIq($locationData);
+                $locality = $this->getLocalityFromLocationIq($locationData);
+            }else{
+                $city = $this->getCity($locationData);
+                $locality = $this->getLocation($locationData);
+            }
+
+            echo $locality.','.$city;exit;
          }
     }
 
@@ -106,21 +134,48 @@ class HomeController extends Controller
      */
     protected function saveLocalitiesInDB($data){
         if(!empty($data)){
-            $cityInfo = null;
-            if(!empty($data['city'])){
-                $cityInfo = $data['city'];
-            }else if(!empty($data['localityInfo']['administrative'][2]['name'])){
-                $cityInfo = $data['localityInfo']['administrative'][2]['name'];
-                $cityInfo = chop($cityInfo,'district'); 
-            }else if(!empty($data['principalSubdivision'])){
-                $cityInfo = $data['principalSubdivision'];
-            }
+             if($this->geocodingService == "locationiq"){
+                $cityInfo = $this->getCityFromLocationIq($data);
+                $localityInfo = $this->getLocalityFromLocationIq($data);
+             }else{
+                $cityInfo = $this->getCity($data);
+                $localityInfo = $this->getLocation($data);
+             }
             
             $cityData = Cities::where('city', $cityInfo)->orWhere('city', 'like', '%' . $cityInfo . '%')->get(array('id', 'city','state_id'));
-            echo "<pre>";
-            print_r($cityData->map->city);
 
+            if(empty($cityData))
+                return;
+
+            foreach ($cityData as $key => $value) {
+                $isLocalityExists = Localities::where('name', '=', $localityInfo)->first();
+                if($isLocalityExists)
+                    return;
+
+                $locality = new Localities([
+                    'state_id' => $value->state_id,
+                    'city_id' => $value->id,
+                    'name' => $localityInfo,
+                ]);
+
+                if($this->geocodingService == "locationiq"){
+                    $locality['latitude'] = $data['lat'];
+                    $locality['longitude'] = $data['lon'];
+                    $locality['principal_subdivision'] = $data['address']['state'];
+
+                }else{
+                    $locality['latitude'] = $data['latitude'];
+                    $locality['longitude'] = $data['longitude'];
+                    $locality['principal_subdivision'] = $data['principalSubdivision'];
+                    $locality['principal_subdivision_code'] = $data['principalSubdivisionCode'];
+                    $locality['pluscode'] = $data['plusCode'];
+                }               
+
+                $locality->save();
+            }
+            return;
         }
+        return;
 
     }
 }

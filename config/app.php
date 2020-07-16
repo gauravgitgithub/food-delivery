@@ -233,4 +233,6 @@ return [
 
     'reverse_geocoding' => 'https://api.bigdatacloud.net/data/reverse-geocode-client',
 
+    'locationiq_reverse' => 'https://us1.locationiq.com/v1/reverse.php?key='.env('LOCATIONIQ_PRIVATE_TOKEN','123456').'&lat=LATITUDE&lon=LONGITUDE&format=json',
+
 ];
